@@ -1,0 +1,2 @@
+new_fft.c:15:6:FFT_Initialization	8	static
+new_fft.c:22:6:FFT_Process	16	static

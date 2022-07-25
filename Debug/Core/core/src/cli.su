@@ -1,0 +1,7 @@
+cli.c:83:6:CLI_Init	8	static
+cli.c:95:9:CLI_Add_Command	16	static
+cli.c:117:9:CLI_Process_Command	88	static
+cli.c:177:6:CLI_Parse_Arguments	32	static
+cli.c:217:9:CLI_Get_Argument_Length	24	static
+cli.c:234:16:Help_Callback	32	static
+cli.c:264:16:Clear_Callback	24	static

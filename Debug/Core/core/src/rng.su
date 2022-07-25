@@ -1,0 +1,2 @@
+rng.c:4:6:rng_init	4	static
+rng.c:10:10:rng_gen	4	static

@@ -1,0 +1,8 @@
+core_cm7.h:1896:22:__NVIC_EnableIRQ	16	static
+core_cm7.h:1985:22:__NVIC_ClearPendingIRQ	16	static
+USART.c:3:6:USART_Init	24	static
+USART.c:35:6:SendByte	16	static
+USART.c:40:6:print_str	272	static
+USART.c:52:6:USART2_IRQHandler	8	static
+USART.c:60:6:get_byte	16	static
+USART.c:68:6:get_array_str	24	static

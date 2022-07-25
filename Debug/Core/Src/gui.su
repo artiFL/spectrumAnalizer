@@ -1,0 +1,2 @@
+gui.c:7:6:draw_window	40	static
+gui.c:60:6:change_bandwidth_display	16	static

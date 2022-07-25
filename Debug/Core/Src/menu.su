@@ -1,0 +1,2 @@
+menu.c:62:6:menu_build	4	static
+menu.c:83:6:menu_render	32	static

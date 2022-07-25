@@ -1,0 +1,2 @@
+consol.c:6:6:console_printf	308	static,ignoring_inline_asm
+consol.c:48:6:stringLine	32	static

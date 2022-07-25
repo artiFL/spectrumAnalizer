@@ -1,0 +1,4 @@
+clock.c:5:6:clock_update	16	static
+clock.c:61:6:Delay_us	24	static
+clock.c:70:6:delay	16	static
+clock.c:74:6:DWT_init	4	static

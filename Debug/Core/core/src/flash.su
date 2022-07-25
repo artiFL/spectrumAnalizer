@@ -1,0 +1,16 @@
+flash.c:20:12:flash_wait_for_last_operation	4	static
+flash.c:27:13:flash_unlock	4	static
+flash.c:32:13:flash_lock	4	static
+flash.c:36:6:flash_init	4	static
+flash.c:55:10:flash_read	16	static
+flash.c:59:6:flash_mass_erase	8	static
+flash.c:71:5:flash_erase_sector	16	static
+flash.c:85:6:flash_programm_byte	16	static
+flash.c:93:6:flash_programm_half_word	16	static
+flash.c:102:6:flash_programm_word	16	static
+flash.c:111:6:flash_programm_double_word	24	static
+flash.c:121:6:flash_programm_byte_key	16	static
+flash.c:131:6:flash_programm_half_word_key	16	static
+flash.c:142:6:flash_programm_word_key	16	static
+flash.c:153:6:flash_programm_double_word_key	24	static
+flash.c:166:5:config_save	32	static

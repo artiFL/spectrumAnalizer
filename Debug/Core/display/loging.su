@@ -1,0 +1,2 @@
+loging.c:3:6:FatalError	16	static
+loging.c:27:6:lcd_console_log	24	static
