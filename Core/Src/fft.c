@@ -20,14 +20,17 @@ void fft_force(void) {
 
 
 
-	HAL_ADC_Start(&hadc1);
+	//HAL_ADC_Start(&hadc1);
 
 	//for (uint16_t i = 0; i < FFT_SampleNum ; i++) {
 	//	fft.data_adc[i] = ADC1->DR;
 	//}
 
 	for (uint16_t k = 0; k < FFT_SampleNum ; k++) {
-		fft.input_fft_adc_data_float[k] = (float32_t)(ADC1->DR * REF_VOLTAGE / 4096);//(float32_t) ((fft.data_adc[k] * REF_VOLTAGE / 4096) - REF_VOLTAGE / 2);
+		fft.input_fft_adc_data_float[k] = (float32_t)(fft.data_adc[k] * REF_VOLTAGE / 4096);//(float32_t) ((fft.data_adc[k] * REF_VOLTAGE / 4096) - REF_VOLTAGE / 2);
+
+		//fft.input_fft_adc_data_float[k] = (float32_t)(ADC1->DR * REF_VOLTAGE / 4096);//(float32_t) ((fft.data_adc[k] * REF_VOLTAGE / 4096) - REF_VOLTAGE / 2);
+
 	}
 
 	fft_();

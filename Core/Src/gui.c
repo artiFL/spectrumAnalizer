@@ -39,7 +39,7 @@ void draw_window(void) {
 
 		ui.next_step_x_line > ui.end_x_window ? (ui.next_step_x_line = ui.end_x_window - 1) : (ui.next_step_x_line = ui.next_step_x_line);
 
-		ui.next_step_y_line = 300 - fft_Sbuff[i] * 3;
+		ui.next_step_y_line = 300 - fft_Sbuff[i] * 5;
 
 		ui.next_step_y_line < (ui.start_y_window + 2) ? (ui.next_step_y_line = (ui.start_y_window + 2)) : (ui.next_step_y_line = ui.next_step_y_line);
 

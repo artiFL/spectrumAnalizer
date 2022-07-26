@@ -17,10 +17,12 @@
 ADC_HandleTypeDef hadc1;
 
 
-#define FFT_SIZE 2048//указываем размер FFT
+#define FFT_SIZE 4096//указываем размер FFT
 
 #define  REF_VOLTAGE			(float)3.3
 
+
+uint16_t buff_ADC_DATA[FFT_SIZE];
 
 
 uint16_t k;

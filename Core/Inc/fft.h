@@ -20,7 +20,7 @@ typedef enum
 }elightSamplesTypeDef;
 
 
-#define  FFT_SampleNum  		(int)2048
+#define  FFT_SampleNum  		(int)1
 #define  REF_VOLTAGE			(float)3.3
 
 

@@ -15,6 +15,7 @@
 
 extern char TxBufferFS[40];
 extern char RxBufferFS[40];
+extern sfftTypeDef fft;
 
 #ifdef __GNUC__
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
@@ -51,11 +52,18 @@ DMA_HandleTypeDef hdma_adc1;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_ADC1_Init(void);
+
+void MX_DMA_Init(void);
+
 void DMA_init(void);
 void DMA_(void);
 
 #define DMAStart 	DMA2_Stream1->CR |= DMA_SxCR_EN
 #define DMAStop 	DMA2_Stream1->CR &= ~DMA_SxCR_EN
+
+uint16_t data_adc_get[4096];
+
+
 
 void MPU_RegionConfig(void) {
 	MPU_Region_InitTypeDef MPU_InitStruct;
@@ -85,6 +93,8 @@ void MPU_RegionConfig(void) {
 }
 
 DMA2D_HandleTypeDef hdma2d;
+ADC_HandleTypeDef hadc1;
+DMA_HandleTypeDef hdma_adc1;
 
 uint8_t new_sample;
 
@@ -101,9 +111,17 @@ int main(void) {
 
 	SystemClock_Config();
 	MX_GPIO_Init();
-	//MX_DMA_Init();
-	//MX_USB_DEVICE_Init();
+
+	MX_DMA_Init();
+
 	MX_ADC1_Init();
+
+
+	HAL_ADC_Start_DMA(&hadc1, (unsigned long int *) buff_ADC_DATA, FFT_SIZE);
+
+
+
+	//MX_USB_DEVICE_Init();
 	//MX_DMA2D_Init();
 	rng_init();
 
@@ -123,7 +141,7 @@ int main(void) {
 		draw_window();
 	}
 }
-
+/*
 void DMA2_Steram0_IRQHandler(void) {
 	uint32_t temp_SR = DMA2->LISR;
 	if (temp_SR & DMA_LISR_TCIF0) {
@@ -131,6 +149,7 @@ void DMA2_Steram0_IRQHandler(void) {
 		new_sample = 1;
 	}
 }
+*/
 void MX_DMA2D_Init(void) {
 	hdma2d.Instance = DMA2D;
 	hdma2d.Init.Mode = DMA2D_M2M;
@@ -175,6 +194,20 @@ void DMA_(void) {
 	//DMA2_Stream1->M0AR = (uint32_t)&input_fft_adc_data_float;
 	//DMA2_Stream1->NDTR = TEST_LENGTH_SAMPLES;
 	DMAStart;
+
+}
+
+
+void MX_DMA_Init(void)
+{
+
+  /* DMA controller clock enable */
+  __HAL_RCC_DMA2_CLK_ENABLE();
+
+  /* DMA interrupt init */
+  /* DMA2_Stream0_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA2_Stream0_IRQn);
 
 }
 
@@ -232,7 +265,8 @@ void SystemClock_Config(void) {
 static void MX_ADC1_Init(void) {
 
 	/* USER CODE BEGIN ADC1_Init 0 */
-
+	  //NVIC_SetPriority(ADC_IRQn, 0); /* ADC IRQ greater priority than DMA IRQ */
+	  //NVIC_EnableIRQ(ADC_IRQn);
 	/* USER CODE END ADC1_Init 0 */
 
 	ADC_ChannelConfTypeDef sConfig = { 0 };
