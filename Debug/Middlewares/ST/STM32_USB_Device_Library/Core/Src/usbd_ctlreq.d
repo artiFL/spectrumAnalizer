@@ -1,8 +1,8 @@
 Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o: \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/USB_DEVICE/Target/usbd_conf.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Target/usbd_conf.h \
  ../Core/Inc/main.h ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../Core/Inc/stm32f7xx_hal_conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -35,16 +35,16 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o: \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/USB_DEVICE/Target/usbd_conf.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Target/usbd_conf.h:
 
 ../Core/Inc/main.h:
 
@@ -112,10 +112,10 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.o: \
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:

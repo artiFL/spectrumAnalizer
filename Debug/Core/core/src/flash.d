@@ -1,5 +1,5 @@
 Core/core/src/flash.o: ../Core/core/src/flash.c \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/flash.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/flash.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -34,7 +34,7 @@ Core/core/src/flash.o: ../Core/core/src/flash.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
  ../Core/Inc/header.h
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/flash.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/flash.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 

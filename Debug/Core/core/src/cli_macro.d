@@ -1,5 +1,5 @@
 Core/core/src/cli_macro.o: ../Core/core/src/cli_macro.c \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/cli.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/cli.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -32,11 +32,11 @@ Core/core/src/cli_macro.o: ../Core/core/src/cli_macro.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/USART.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/clock.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/USART.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/clock.h \
  ../Core/Inc/header.h
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/cli.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/cli.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 
@@ -102,8 +102,8 @@ Core/core/src/cli_macro.o: ../Core/core/src/cli_macro.c \
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/USART.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/USART.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/clock.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/clock.h:
 
 ../Core/Inc/header.h:

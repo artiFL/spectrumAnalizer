@@ -15,13 +15,6 @@ S_DEPS += \
 
 
 # Each subdirectory must supply rules for building sources it contributes
-startup/%.o: ../startup/%.s startup/subdir.mk
-	arm-none-eabi-gcc -c -mcpu=cortex-m7 -g3 -c -mfloat-abi=soft -Wa,-W -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
-
-clean: clean-startup
-
-clean-startup:
-	-$(RM) ./startup/startup_stm32f767xx.d ./startup/startup_stm32f767xx.o
-
-.PHONY: clean-startup
+startup/startup_stm32f767xx.o: ../startup/startup_stm32f767xx.s startup/subdir.mk
+	arm-none-eabi-gcc -c -mcpu=cortex-m7 -g3 -c -mfloat-abi=soft -Wa,-W -MMD -MP -MF"startup/startup_stm32f767xx.d" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 

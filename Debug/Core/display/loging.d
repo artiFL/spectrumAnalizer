@@ -33,10 +33,10 @@ Core/display/loging.o: ../Core/display/loging.c ../Core/display/loging.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
  ../Core/display/consol.h ../Core/display/display.h \
  ../Core/display/color_command.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/Font/font.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/Font/font.h \
  ../Core/Inc/header.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/clock.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/flash.h
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/clock.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/flash.h
 
 ../Core/display/loging.h:
 
@@ -110,10 +110,10 @@ Core/display/loging.o: ../Core/display/loging.c ../Core/display/loging.h \
 
 ../Core/display/color_command.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/Font/font.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/Font/font.h:
 
 ../Core/Inc/header.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/clock.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/clock.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/flash.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/flash.h:

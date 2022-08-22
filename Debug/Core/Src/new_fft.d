@@ -1,13 +1,4 @@
-Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o: \
- ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Target/usbd_conf.h \
- ../Core/Inc/main.h ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
- ../Core/Inc/stm32f7xx_hal_conf.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
- ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
+Core/Src/new_fft.o: ../Core/Src/new_fft.c ../Core/Inc/new_fft.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h \
  ../Drivers/CMSIS/Include/core_cm7.h \
@@ -16,6 +7,10 @@ Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o: \
  ../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../Drivers/CMSIS/Include/mpu_armv7.h \
  ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
+ ../Core/Inc/stm32f7xx_hal_conf.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
+ ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc_ex.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_exti.h \
@@ -36,28 +31,13 @@ Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.o: \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
- C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_const_structs.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_common_tables.h \
+ ../Core/Inc/arm_fft_bin_data.h
 
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
-
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
-
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
-
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Target/usbd_conf.h:
-
-../Core/Inc/main.h:
-
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
-
-../Core/Inc/stm32f7xx_hal_conf.h:
-
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
-
-../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h:
+../Core/Inc/new_fft.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:
 
@@ -74,6 +54,14 @@ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Targ
 ../Drivers/CMSIS/Include/mpu_armv7.h:
 
 ../Drivers/CMSIS/Device/ST/STM32F7xx/Include/system_stm32f7xx.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
+
+../Core/Inc/stm32f7xx_hal_conf.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
+
+../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_def.h:
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h:
 
@@ -115,10 +103,12 @@ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Targ
 
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h:
 
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h:
 
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_const_structs.h:
 
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h:
 
-C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_common_tables.h:
+
+../Core/Inc/arm_fft_bin_data.h:

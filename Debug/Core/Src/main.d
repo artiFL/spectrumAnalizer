@@ -32,23 +32,24 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
  ../USB_DEVICE/App/usb_device.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/USB_DEVICE/Target/usbd_conf.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Target/usbd_conf.h \
  ../Core/Inc/gui.h ../Core/Inc/fft.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_math.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_const_structs.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_math.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_common_tables.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/display.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/color_command.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/Font/font.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/loging.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/consol.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_const_structs.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_common_tables.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/display.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/color_command.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/Font/font.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/loging.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/consol.h \
  ../Core/Inc/header.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/clock.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/flash.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/cli.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/rng.h
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/clock.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/flash.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/cli.h \
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/rng.h \
+ ../Core/Inc/new_fft.h
 
 ../Core/Inc/main.h:
 
@@ -118,38 +119,40 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../USB_DEVICE/App/usb_device.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/USB_DEVICE/Target/usbd_conf.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/USB_DEVICE/Target/usbd_conf.h:
 
 ../Core/Inc/gui.h:
 
 ../Core/Inc/fft.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_math.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_const_structs.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_const_structs.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_math.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_math.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/DSP/arm_common_tables.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/DSP/arm_common_tables.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/display.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/display.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/color_command.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/color_command.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/Font/font.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/Font/font.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/loging.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/loging.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/consol.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/consol.h:
 
 ../Core/Inc/header.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/clock.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/clock.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/flash.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/flash.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/cli.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/cli.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/core/inc/rng.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/core/inc/rng.h:
+
+../Core/Inc/new_fft.h:

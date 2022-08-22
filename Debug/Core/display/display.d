@@ -33,7 +33,7 @@ Core/display/display.o: ../Core/display/display.c \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
  ../Core/display/color_command.h \
- /Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/Font/font.h
+ C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/Font/font.h
 
 ../Core/display/display.h:
 
@@ -103,4 +103,4 @@ Core/display/display.o: ../Core/display/display.c \
 
 ../Core/display/color_command.h:
 
-/Users/artemflegler/Desktop/Atolic_truestudio/cmsis_fft_dsp_f7/Core/display/Font/font.h:
+C:/Users/flegler.a/Desktop/Work_space/git_clone/spectrumAnalizer/Core/display/Font/font.h:
