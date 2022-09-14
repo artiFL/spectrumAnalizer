@@ -4314,7 +4314,6 @@ void draw_vertical_line(uint16_t poX, uint16_t poY, uint16_t length, uint16_t co
  8001fa2:	2300      	movs	r3, #0
  8001fa4:	60fb      	str	r3, [r7, #12]
  8001fa6:	e00c      	b.n	8001fc2 <draw_vertical_line+0x3e>
-
 		set_pixel(poX, poY + i, color);
  8001fa8:	68fb      	ldr	r3, [r7, #12]
  8001faa:	b29a      	uxth	r2, r3

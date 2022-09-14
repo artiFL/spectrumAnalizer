@@ -202,14 +202,14 @@ static uint16_t _height = TFTHEIGHT;		//visota
 			CS_LOW();
 			DATA_COMMAND_LOW();
 
-		    if(command & 0x01) GPIOF->ODR |= GPIO_ODR_ODR_12; else  GPIOF->ODR &= ~GPIO_ODR_ODR_12; \
-		    if(command & 0x02) GPIOD->ODR |= GPIO_ODR_ODR_15; else  GPIOD->ODR &= ~GPIO_ODR_ODR_15; \
-		    if(command & 0x04) GPIOF->ODR |= GPIO_ODR_ODR_15; else  GPIOF->ODR &= ~GPIO_ODR_ODR_15; \
-		    if(command & 0x08) GPIOE->ODR |= GPIO_ODR_ODR_13; else GPIOE->ODR &= ~GPIO_ODR_ODR_13; \
-		    if(command & 0x10) GPIOF->ODR |= GPIO_ODR_ODR_14; else  GPIOF->ODR &= ~GPIO_ODR_ODR_14; \
-		    if(command & 0x20) GPIOE->ODR |= GPIO_ODR_ODR_11; else  GPIOE->ODR &= ~GPIO_ODR_ODR_11; \
-		    if(command & 0x40) GPIOE->ODR |= GPIO_ODR_ODR_9; else  GPIOE->ODR &= ~GPIO_ODR_ODR_9; \
-		    if(command & 0x80) GPIOF->ODR |= GPIO_ODR_ODR_13; else  GPIOF->ODR &= ~GPIO_ODR_ODR_13;
+			command & 0x01 ? GPIOF->ODR |= GPIO_ODR_ODR_12 : GPIOF->ODR &= ~GPIO_ODR_ODR_12
+			command & 0x02 ? GPIOF->ODR |= GPIO_ODR_ODR_15 : GPIOF->ODR &= ~GPIO_ODR_ODR_15
+			command & 0x04 ? GPIOF->ODR |= GPIO_ODR_ODR_15 : GPIOF->ODR &= ~GPIO_ODR_ODR_15
+			command & 0x08 ? GPIOF->ODR |= GPIO_ODR_ODR_13 : GPIOF->ODR &= ~GPIO_ODR_ODR_13
+			command & 0x10 ? GPIOF->ODR |= GPIO_ODR_ODR_14 : GPIOF->ODR &= ~GPIO_ODR_ODR_14
+			command & 0x20 ? GPIOF->ODR |= GPIO_ODR_ODR_11 : GPIOF->ODR &= ~GPIO_ODR_ODR_11
+			command & 0x40 ? GPIOF->ODR |= GPIO_ODR_ODR_9 : GPIOF->ODR &= ~GPIO_ODR_ODR_9
+			command & 0x80 ? GPIOF->ODR |= GPIO_ODR_ODR_13 : GPIOF->ODR &= ~GPIO_ODR_ODR_13
 
 			WRITE_DISPLAY_LOW();
 			WRITE_DISPLAY_HIGH();
@@ -460,7 +460,6 @@ void fill_screen (uint16_t color)
 void draw_vertical_line(uint16_t poX, uint16_t poY, uint16_t length, uint16_t color)
 {
 	for(int i = 0; i < length; i++)
-
 		set_pixel(poX, poY + i, color);
 }
 void draw_horizontal_line (uint16_t poX, uint16_t poY, uint16_t length, uint16_t color)
